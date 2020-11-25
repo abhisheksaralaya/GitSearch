@@ -37,14 +37,11 @@ class APIClient: NSObject {
         request.allHTTPHeaderFields = headers
 
         let session = URLSession.shared
-        let dataTask = session.dataTask(with: request as URLRequest, completionHandler: { [self] (data, response, error) -> Void in
+        let dataTask = session.dataTask(with: request as URLRequest, completionHandler: { [] (data, response, error) -> Void in
             if (error != nil) {
-                print(error)
+                print(error ?? "")
             } else {
-                let httpResponse = response as? HTTPURLResponse
                 do {
-                    let data1 = try JSONSerialization.jsonObject(with: data!, options: .allowFragments)
-                    print("augsuygdugauygduya",urlStr,data1)
                     switch apiName {
                     case "Search":
                         let jsonData = try  JSONDecoder().decode(Repositories.self

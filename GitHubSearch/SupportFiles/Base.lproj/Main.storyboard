@@ -83,7 +83,7 @@
                     </connections>
                 </customObject>
             </objects>
-            <point key="canvasLocation" x="1047.8260869565217" y="117.85714285714285"/>
+            <point key="canvasLocation" x="1048" y="118"/>
         </scene>
         <!--Git Repo Details-->
         <scene sceneID="zwL-9b-YkN">
@@ -221,7 +221,6 @@
         <!--Navigation Controller-->
         <scene sceneID="5Yi-RJ-fth">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KUa-qN-ETv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="a4V-Ol-Vhy" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="HUU-TI-xjL">
@@ -235,6 +234,7 @@
                         <segue destination="9gQ-D2-RdF" kind="relationship" relationship="rootViewController" id="j6v-Mv-aLW"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KUa-qN-ETv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1048" y="-613"/>
         </scene>

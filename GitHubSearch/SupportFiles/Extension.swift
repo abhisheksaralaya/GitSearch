@@ -45,8 +45,6 @@ extension UIViewController {
             }
             vSpinner = spinnerView
         }
-        
-        
     }
     
     func removeSpinner() {

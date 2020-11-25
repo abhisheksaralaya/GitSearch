@@ -44,6 +44,7 @@ class RepositoryViewModel: NSObject {
                 })
             } else {
                 //No Internet
+                
             }
         }
     }

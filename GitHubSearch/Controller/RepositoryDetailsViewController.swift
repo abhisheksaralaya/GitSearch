@@ -28,14 +28,9 @@ class RepositoryDetailsViewController: UIViewController, UITableViewDataSource, 
             lblName.attributedText = NSMutableAttributedString().changeTextColor(string: NSMutableString(string:"Name: \(fullName)"), stringColor: "Name", font: 15, fontColor: 20, newLine: true)
             if !descriptionText.isEmpty {
                 lblDescription.attributedText = NSMutableAttributedString().changeTextColor(string: NSMutableString(string:"Description: \(descriptionText)"), stringColor: "Description", font: 15, fontColor: 20, newLine: true)
-//                lblDescription.text = "Description: \(descriptionText)"
             } else {
                 lblDescription.text = ""
             }
-//            let alertController = UIAlertController(title: "Loading ..",
-//                                                    message: "Please wait",
-//                                                    preferredStyle: .alert)
-//            self.present(alertController, animated: true, completion: nil)
             self.showSpinner(onView: self.view)
             repositoryViewModel.getData(apiName: "Issue", paramaters: fullName, completion:  {
                 self.repositoryViewModel.getData(apiName: "Contributors", paramaters: self.fullName, completion:  {
