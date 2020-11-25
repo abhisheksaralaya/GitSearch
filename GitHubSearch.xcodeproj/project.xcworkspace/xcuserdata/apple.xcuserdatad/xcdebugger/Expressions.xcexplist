@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in APIClient.fetchRepoList(apiName:paramaters:completion:):APIClient.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "print(urlStr)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RepositoryDetailsViewController.tableView(_:didSelectRowAt:):RepositoryDetailsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "print(issue)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
