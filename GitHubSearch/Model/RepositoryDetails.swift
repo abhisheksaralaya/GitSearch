@@ -16,8 +16,6 @@ struct Actor: Codable {
     }
 }
 
-
-
 struct User: Codable {
     let id: Int?
     let avatar_url,events_url,followers_url,following_url,gists_url,gravatar_id,html_url,node_id,organizations_url,received_events_url,repos_url,starred_url,subscriptions_url,url: String?
@@ -38,7 +36,6 @@ struct Issue: Codable {
     }
 }
 
-
 struct IssueDetails: Codable {
     let id:Int?
     let actor: Actor?
@@ -51,9 +48,6 @@ struct IssueDetails: Codable {
     }
 }
 
-
-
-
 struct Contributor: Codable {
     let id,contributions:Int?
     let avatar_url,login,events_url,followers_url,following_url,gists_url,gravatar_id,html_url,node_id,organizations_url,received_events_url,repos_url,starred_url,subscriptions_url,url: String?
@@ -62,5 +56,3 @@ struct Contributor: Codable {
         case id,contributions,avatar_url,login,events_url,followers_url,following_url,gists_url,gravatar_id,html_url,node_id,organizations_url,received_events_url,repos_url,starred_url,subscriptions_url,url
     }
 }
-
-
